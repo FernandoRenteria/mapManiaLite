@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Fernando Renteria
+    Project: Map Mania
+    Version: 1.0
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania Lite</title>
+        <script src="map-mania-lite.js"></script>
+        <link rel="stylesheet" href="map-mania-lite.css"> 
+    </head>
+    <body onload="initApplication()">
+        <h1>&quot;Top Ten&quot; Places to Visit Game</h1>    
+        <h2> Version 1.0</h2>    
+        Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
+        Score: <input id="score-id" type="number" value="" size="2" disabled><br><br>
+
+        <div id="myMapID"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8kbE9vkEeqk3cfiXkFRIwPAZE2BcNDAE&callback=initMap"
+            async defer>
+        </script>
+    </body>
+</html>
